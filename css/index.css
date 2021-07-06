@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 auto;
+    width: 800px;
+    
 }
 ol, ul {
 	list-style: none;
@@ -65,6 +68,25 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top a{
+   /* justify-content: space-evenly;*/
+   text-decoration: none;
+   font-size: 14px;
+   padding-left: 75px;
+   
+}
+.jumbotron{
+   padding-left:-50px;
+   padding-top: 30px; 
+   padding-bottom: 20px;
+}
+/* box color madness*/
 
 .container {
     width: 800px;
@@ -111,6 +133,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*box colors*/
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +197,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+hr{
+    border-style: dashed;
+    height: 1px;
+    color: black;
+
+}
+
+.midwrapper{
+    display: flex;
+	flex-direction:row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-self: center;
+}
+.m2{
+    box-sizing: border-box;
+    border: none;
+    width:45%;
+    justify-content: left;
+    padding-top: 30px;
+
+}
+.learnmore{
+    background-color: white;
+	font-size: 14px;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid black;
+	margin: 20px;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+.learnmore:hover {
+    color:white;
+    background-color:black;
+}
+.letswork{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
 }
